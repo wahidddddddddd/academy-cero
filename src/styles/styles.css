@@ -1,0 +1,375 @@
+body {
+  background-color: #cccccc;
+ 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+    background-image: url("../assets/ok.webp")
+  }
+
+
+#nav{
+ background-color: rgba(5, 5, 5, 0);
+
+}
+  #carta{
+    padding: 52px;
+  
+    height: 350px;
+    background-color: #0000007a;
+  }
+  
+  #header-home-image {
+    background-image: url("../assets/technology-785742_960_720.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+
+  .polaroid{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+  
+    background-color: antiquewhite;
+  }
+
+
+
+
+ul {
+  display: flex;
+  flex-direction: row;
+  font-size: 22px;
+}
+
+li {
+  position: relative;
+  list-style-type: none;
+  margin-right: 50px;
+  cursor: pointer;
+  color: black;
+}
+li:last-child {
+  margin-right: 0px;
+}
+li:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  transform: translateX(-50%) rotate(0deg);
+}
+
+li:nth-child(1):after {
+  background: #0830e4a4;
+}
+
+li:nth-child(2):after {
+  background: #025fca83;
+}
+
+li:nth-child(3):after {
+  background: #099add9f;
+}
+
+li:nth-child(4):after {
+  background: #0963caaf;
+}
+
+li:nth-child(5):after {
+  background: #0963caaf;
+}
+li:nth-child(6):after {
+  background: #0963caaf;
+}
+
+
+li:nth-child(1):after {
+  clip-path: polygon(6% 10%, 100% 0, 64% 65%, 28% 65%);
+  height: 85px;
+  width: 75px;
+  bottom: -47px;
+  animation: stretch 2s ease infinite;
+}
+@keyframes stretch {
+  25% {
+    transform: translateX(-50%) rotate(2deg) scaleY(0.93);
+  }
+  50% {
+    transform: translateX(-50%) rotate(-2deg) scaleX(0.93);
+    clip-path: polygon(6% 20%, 100% 0, 64% 65%, 28% 65%);
+  }
+  75% {
+    transform: translateX(-50%) rotate(3deg) scale(1.05);
+  }
+}
+
+li:nth-child(2):after {
+  clip-path: polygon(61% 0%, 100% 19%, 71% 100%, 0% 100%);
+  height: 55px;
+  width: 75px;
+  bottom: -18px;
+  animation: stretch2 1.5s ease infinite;
+}
+@keyframes stretch2 {
+  25% {
+    transform: translateX(-50%) rotate(-2deg) scaleY(1.05);
+  }
+  50% {
+    transform: translateX(-50%) rotate(2deg) scaleY(0.93) scaleX(1.06);
+    clip-path: polygon(61% 0%, 100% 19%, 71% 100%, 12% 100%);
+  }
+  75% {
+    transform: translateX(-50%) rotate(3deg) scale(1.05);
+    clip-path: polygon(61% 0%, 80% 19%, 71% 100%, 12% 100%);
+  }
+}
+
+li:nth-child(3):after {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 99%, 0% 57%);
+  height: 55px;
+  width: 45px;
+  bottom: -18px;
+  animation: stretch3 2s ease infinite;
+}
+@keyframes stretch3 {
+  25% {
+    transform: translateX(-50%) rotate(-2deg) scaleY(1.05);
+  }
+  50% {
+    transform: translateX(-50%) rotate(2deg) scaleY(0.93) scaleX(1.06);
+    clip-path: polygon(10% 5%, 100% 0%, 100% 99%, 0% 57%);
+  }
+  75% {
+    transform: translateX(-50%) rotate(3deg) scale(1.05);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 99%, 10% 37%);
+  }
+}
+
+li:nth-child(4):after {
+  clip-path: polygon(0% 40%, 100% 0%, 100% 99%, 19% 100%);
+  height: 55px;
+  width: 45px;
+  bottom: -18px;
+  animation: stretch4 2s ease infinite;
+}
+@keyframes stretch4 {
+  25% {
+    transform: translateX(-50%) rotate(-2deg) scaleY(1.05);
+  }
+  50% {
+    transform: translateX(-50%) rotate(2deg) scaleY(0.93) scaleX(1.06);
+    clip-path: polygon(0% 40%, 100% 0%, 100% 99%, 19% 100%);
+  }
+  75% {
+    transform: translateX(-50%) rotate(3deg) scaleY(1.05);
+    clip-path: polygon(0% 40%, 100% 0%, 100% 99%, 19% 100%);
+  }
+}
+
+
+li:nth-child(5):after {
+  clip-path: polygon(0% 40%, 100% 0%, 100% 99%, 19% 100%);
+  height: 55px;
+  width: 45px;
+  bottom: -18px;
+  animation: stretch4 2s ease infinite;
+}
+@keyframes stretch4 {
+  25% {
+    transform: translateX(-50%) rotate(-2deg) scaleY(1.05);
+  }
+  50% {
+    transform: translateX(-50%) rotate(2deg) scaleY(0.93) scaleX(1.06);
+    clip-path: polygon(0% 40%, 100% 0%, 100% 99%, 19% 100%);
+  }
+  75% {
+    transform: translateX(-50%) rotate(3deg) scaleY(1.05);
+    clip-path: polygon(0% 40%, 100% 0%, 100% 99%, 19% 100%);
+  }
+}
+
+li:nth-child(6):after {
+  clip-path: polygon(0% 40%, 100% 0%, 100% 99%, 19% 100%);
+  height: 55px;
+  width: 45px;
+  bottom: -18px;
+  animation: stretch4 2s ease infinite;
+}
+@keyframes stretch4 {
+  25% {
+    transform: translateX(-50%) rotate(-2deg) scaleY(1.05);
+  }
+  50% {
+    transform: translateX(-50%) rotate(2deg) scaleY(0.93) scaleX(1.06);
+    clip-path: polygon(0% 40%, 100% 0%, 100% 99%, 19% 100%);
+  }
+  75% {
+    transform: translateX(-50%) rotate(3deg) scaleY(1.05);
+    clip-path: polygon(0% 40%, 100% 0%, 100% 99%, 19% 100%);
+  }
+}
+li:hover:after {
+  animation: boink 1s ease forwards 1;
+}
+@keyframes boink {
+  80% {
+    transform: scaleX(1.9) scaleY(0.6) translateX(-30%);
+  }
+}
+
+@media (max-width: 600px) {
+  li {
+    font-size: 15px;
+  }
+}
+
+
+.polaroid :hover{
+
+    background-color: rgba(5, 45, 155, 0.384);
+   
+
+}
+
+#inst :hover{
+  background-color: aliceblue;
+
+}
+
+.polaroid2{
+
+
+background-color: rgba(1, 12, 22, 0.329);
+align-items: center;
+  width: 350px;
+  height: 450px;
+  color: aliceblue;
+  display: flex;
+}
+
+.polaroid2 :hover{
+
+  background-color: rgba(5, 52, 99, 0.425);
+  align-items: center;
+  border-radius: 29px 30px;
+ 
+
+
+}
+
+#circl1:hover{
+  color: aliceblue;
+  background-image: url(../assets/micro23.jpg);
+
+
+}
+#circl2:hover{
+  color: aliceblue;
+  background-image: url(../assets/sistemas23.jpg);
+
+
+}
+#circl3:hover{
+  color: aliceblue;
+  background-image: url(../assets/paxinasweb.jpg);
+
+
+}
+#circl4:hover{
+  color: aliceblue;
+  background-position:center;
+
+    width: 200px;
+    height: 300px;
+    object-fit: contain;
+  
+
+
+
+}
+
+
+#con{
+  background-color: rgba(0, 0, 0, 0.164);
+}
+#sc{
+  width: 500px;
+  height: 200px;
+}
+
+#circl1{
+  margin: 25px;
+border-radius: 100px;
+  width: 250px;
+  height: 250px;
+  background-color: rgba(19, 20, 20, 0.377);
+
+  object-fit: cover;
+}
+#circl2{
+  margin: 25px;
+border-radius: 100px;
+  width: 250px;
+  height: 250px;
+  background-color: rgba(19, 20, 20, 0.377);
+}
+#circl3{
+  margin: 25px;
+border-radius: 100px;
+  width: 250px;
+  height: 250px;
+  background-color: rgba(19, 20, 20, 0.377);
+}
+#circl4{
+  margin: 25px;
+border-radius: 100px;
+  width: 250px;
+  height: 250px;
+  background-color: rgba(19, 20, 20, 0.377);
+}
+
+
+#circl5{
+  margin: 25px;
+border-radius: 100px;
+  width: 250px;
+  height: 250px;
+  background-color: rgba(19, 20, 20, 0.377);
+}
+#circl6{
+  margin: 25px;
+border-radius: 100px;
+  width: 250px;
+  height: 250px;
+  background-color: rgba(19, 20, 20, 0.377);
+}
+#circl7{
+  margin: 25px;
+border-radius: 100px;
+  width: 250px;
+  height: 250px;
+  background-color: rgba(19, 20, 20, 0.377);
+}
+#circl8{
+  margin: 25px;
+border-radius: 100px;
+  width: 250px;
+  height: 250px;
+  background-color: rgba(19, 20, 20, 0.377);
+}
